@@ -1,0 +1,111 @@
+header {
+  background-color: rgb(28, 160, 184);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1{
+  margin-top: 0px;
+}
+
+#slogan {
+  text-align: right;
+}
+ body{
+  margin: 0px;
+ }
+
+.avatars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 8%;
+
+}
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 160, 184);
+}
+
+.toolsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool{
+  margin:10px;
+}
+
+.tools{
+  text-align: center;
+}
+
+#avatar-bego,
+#avatar-ted,
+#avatar-nacho {
+  display: block;
+  height: auto;
+  border-radius: 50%;
+  width: 80%;
+}
+
+.avatar1,
+.avatar2,
+.avatar3 {
+  position: relative;
+  width: 80%;
+ 
+}
+
+.avatar1:hover .overlay1,
+.avatar2:hover .overlay2,
+.avatar3:hover .overlay3 {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.overlay1,
+.overlay2,
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: inherit;
+  width: inherit;
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: 50%;
+}
+
+.overlay1 {
+  background-color: #eba9e5;
+}
+
+.overlay2 {
+  background-color: #89c291;
+}
+
+.overlay3 {
+  background-color: #95c9dd;
+}
+
+.name1,
+.name2,
+.name3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -9,15 +9,6 @@ h1 {
   font-size: 300%;
 }
 
-/*form {
-  width: 375px;
-  height: 650px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}*/
-
 #slogan {
   text-align: right;
   margin-right: 10px;
@@ -26,12 +17,6 @@ h1 {
 }
 body {
   margin: 0px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120vh;
-  margin: 0;
-  background-color: #ffffff;*/
 }
 
 .avatars {
@@ -46,7 +31,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*background-color: rgb(28, 160, 184);*/
+  background-color: rgb(28, 160, 184);
 }
 
 .toolsContainer {
@@ -69,13 +54,14 @@ body {
 
 #vscode,
 #figma,
-#gitHub {
+
+#jira,
+#git{
   height: 90px;
 }
 
-#jira,
-#git {
-  height: 70px;
+#gitHub{
+  height: 120px;
 }
 
 #avatar-bego,
@@ -85,6 +71,12 @@ body {
   height: 200px;
   border-radius: 50%;
   width: 200px;
+}
+
+.groupAvatar1,
+.groupAvatar2,
+.groupAvatar3{
+  margin-right: 50px;
 }
 
 #desc1,

@@ -3,31 +3,50 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-h1{
+h1 {
   margin-top: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 300%;
 }
+
+/*form {
+  width: 375px;
+  height: 650px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}*/
 
 #slogan {
   text-align: right;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
 }
- body{
+body {
   margin: 0px;
- }
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin: 0;
+  background-color: #ffffff;*/
+}
 
 .avatars {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
-  margin-left: 8%;
-
+  margin-top: 50px;
+  margin-left: 0%;
 }
 
-.banner{
+.banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(28, 160, 184);
+  /*background-color: rgb(28, 160, 184);*/
 }
 
 .toolsContainer {
@@ -36,29 +55,50 @@ h1{
   justify-content: center;
 }
 
-.tool{
-  margin:10px;
+.tool {
+  margin: 10px;
+  size: 100px;
 }
 
-.tools{
+.tools {
+  margin-top: 50px;
   text-align: center;
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#vscode,
+#figma,
+#gitHub {
+  height: 90px;
+}
+
+#jira,
+#git {
+  height: 70px;
 }
 
 #avatar-bego,
 #avatar-ted,
 #avatar-nacho {
   display: block;
-  height: auto;
+  height: 200px;
   border-radius: 50%;
-  width: 80%;
+  width: 200px;
+}
+
+#desc1,
+#desc2,
+#desc3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .avatar1,
 .avatar2,
 .avatar3 {
   position: relative;
-  width: 80%;
- 
+  width: 200px;
 }
 
 .avatar1:hover .overlay1,
@@ -107,5 +147,9 @@ h1{
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
